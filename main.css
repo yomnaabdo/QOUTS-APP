@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imgs/triangles-1430105_1280.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h1{
+    font-size: 50px;
+    animation: fadeInScaleUp 3s ease-in-out infinite;
+}
+/* Keyframes for animation */
+@keyframes fadeInScaleUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
